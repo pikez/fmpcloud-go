@@ -1453,7 +1453,7 @@ func (c *CompanyValuation) SharesFloatAll() (sList []objects.SharesFloat, err er
 }
 
 // SharesFloat - Shares float for symbol
-func (c *CompanyValuation) SharesFloat(symbol string) (ipoList []objects.IPOCalendar, err error) {
+func (c *CompanyValuation) SharesFloat(symbol string) (ipoList []objects.SharesFloat, err error) {
 	data, err := c.Client.Get(
 		urlAPICompanyValuationSharesFloat,
 		map[string]string{
