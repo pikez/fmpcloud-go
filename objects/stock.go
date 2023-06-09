@@ -231,8 +231,10 @@ type StockDailyLineList struct {
 
 // StockDailyLine ...
 type StockDailyLine struct {
-	Date  string  `json:"date"`
-	Close float64 `json:"close"`
+	Date   string  `json:"date"`
+	Close  float64 `json:"close"`
+	VWAP   float64 `json:"vwap"`
+	Volume int64   `json:"volume"`
 }
 
 // StockDailyCandleList ...
