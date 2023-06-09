@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spacecodewor/fmpcloud-go/objects"
+	"github.com/pikez/fmpcloud-go/objects"
 )
 
 func TestStockQuoteShort(t *testing.T) {

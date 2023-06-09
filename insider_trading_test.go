@@ -3,7 +3,7 @@ package fmpcloud
 import (
 	"testing"
 
-	"github.com/spacecodewor/fmpcloud-go/objects"
+	"github.com/pikez/fmpcloud-go/objects"
 )
 
 func TestInsiderTradingList(t *testing.T) {

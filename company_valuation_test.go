@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/now"
-	"github.com/spacecodewor/fmpcloud-go/objects"
+	"github.com/pikez/fmpcloud-go/objects"
 )
 
 // Varibles for test check cases
